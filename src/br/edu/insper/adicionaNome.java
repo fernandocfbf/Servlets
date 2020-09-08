@@ -37,7 +37,7 @@ public class adicionaNome extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("<h1>" + "Confirme os seus dados!"+"</h1>");
-		out.println("<p> Olá! Obrigado por se cadastrar em nosso sitema! Para maior segunraça, confirme os seus dados a seguir:</p>");
+		out.println("<p> Olá! Obrigado por se cadastrar em nosso sistema! Para maior segurança, confirme os seus dados a seguir:</p>");
 		out.println("<p> Nome: "+ nome + "</p>");
 		out.println("<p> Curso: "+ curso + "</p>");
 		out.println("<p> E-mail: "+ email + "</p>");
